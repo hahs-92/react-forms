@@ -1,4 +1,4 @@
-import { Form1, Signup } from "./components";
+import { Form1, ReactHookForm, Signup } from "./components";
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Signup />
       {/* //sin useFormik */}
       <Form1 />
+      <ReactHookForm />
     </div>
   );
 }
